@@ -1,0 +1,40 @@
+#print("Hello World")
+#print("Hello Python")
+#"Hello World"
+#"Hello Python"
+#print( "python" , "öğreniyorum" , sep="," )
+#print("python" , "öğreniyorum")
+#print("İstanbul" , "İzmir" , "Ankara" , sep="/")
+#yetgen = "a"
+#print(yetgen)
+#print(yetgen)
+#print(yetgen)
+#isim_soyisim = "karya"
+#isimSoyisim = "kuzey" 
+#print(isim_soyisim)
+#print(isimSoyisim)
+#print(type(5))
+#a = "4"
+#b = "8"
+#print(a + b)
+#a = 4
+#b = 8
+#print(b/a)
+#print(2 ** 3)
+#a = 10
+#b = 3
+#print (a/b)
+#print(a//b) #bölümün tam kısmı
+#print(a%b) #bölümünden kalan
+#isim ="Karya"
+#print(isim[4])
+#isim = input("isim giriniz:")
+#print("merhaba", isim)
+#sayi1 = int(input("1. sayıyı giriniz: "))
+#sayi2= int(input("2. Sayiyi giriniz: "))
+#print(sayi1 + sayi2)
+#sayi1= input("sayi gir:")
+#sayi2 = input ("sayi gir")
+#print(f"{sayi1} + {sayi2} = {sayi1 + sayi2}")
+logo = input("Logo Rengi Giriniz: ")
+print("Logo Rengi: " , logo)
