@@ -1,0 +1,23 @@
+#1. Soru
+print("Hello World")
+#2. Soru
+logo = input("Logo Rengi Giriniz: ")
+print("Logo Rengi: " , logo)
+#3. Soru
+pi = 3.14
+r = float((input("Yarı Çap Giriniz: ")))
+print(float(pi*(r**2)))
+#4.Soru
+x = [1,2,3,4,5]
+y= [5,4,3,2,1]
+print("x" , y)
+print("y" , x)
+#5. Soru
+print((5 - 3) // 2)
+#6. Soru
+print((8 - 3) * (2 - (1 + 1)))
+#7. Soru
+berkcan = 6
+Emirhan = 7
+Eslem = 5
+print(float((berkcan + Emirhan + Eslem)%3))
