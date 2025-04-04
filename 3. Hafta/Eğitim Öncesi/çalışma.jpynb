@@ -1,9 +1,9 @@
 # Karşılaştırma Oparatörleri
 
 #a , b , c , d = 5 , 5 , 10 , 14
-#print( a == b)
+#print( a == b) #iki değerin birbirine eşit olup olmadığını kontrol eder
 #print(a == c)
-#print(b != c)
+#print(b != c) #eşit değil mi?
 #print(b != a)
 #print(a>b)
 #print(b<c)
@@ -50,12 +50,15 @@
     #print(f"{sayi} sayısı tektir")
 
 # in Operatörü
-
+#Belirtilen bir değerin, dizi, liste veya demet gibi bir dizinin ögesi olup olmadığını kontrol eder. True ya da False değeri döndürür
 #string = "YetGen"
 #print("p" in string)
 
-# Döngüler
+# Döngüler 
+#döngüler temel olarak, verilen koşullar karşılanana kadar devam eden bir süreçtir
+
 # For Döngüsüs
+#listelerin, demetlerin, stringlerin ve hatta sözlüklerin üzerinde dolaşmamızı sağlayan döngü türür
 
 #Liste = [1,2,3,4,5]
 #for i in Liste:
@@ -74,8 +77,22 @@
     #print(int(x) * int(x))
 
 # While Döngüsü
-
+#While döngüleri belli bir koşul sağlandığı sürece devam eder.
+#döngünün sona ermesi için koşul durumunun bir süre sonra false olması gerekir.
+ #while koşul:
+ #  Yapılacak İşlemler
+#a = 1
+#while a<10:
+ #   print(a)
+  #  a+=2
+sum=0
+i=1
+while i<11:
+    sum+= i
+    i+=1
+print("Toplam: " , sum)
 # Range Fonksiyonu
+#başlangıç bitiş artış miktarı şeklinde kullanılır
 #for x in range (1,20,4):
     #print(x)
 
@@ -89,8 +106,8 @@
     #    print(i)
    # i+=1
 
-for i in range(7):
-    if i ==  5:
-        continue
-    print(i)
+#for i in range(7):
+   # if i ==  5:
+   #     continue
+    #print(i)
 
